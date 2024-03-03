@@ -4,8 +4,6 @@ public class Exercise1 {
 
     public static void main(String[] args) {
 
-        // Use StreamSources.intNumbersStream() and StreamSources.userStream()
-
         // Print all numbers in the intNumbersStream stream
         StreamSources.intNumbersStream().forEach(System.out::println);
 
